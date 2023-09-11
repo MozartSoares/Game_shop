@@ -72,3 +72,20 @@ section p{
 #loja {
     margin-right: 32px;
 }
+
+.social img{
+    height: 24px;
+}
+
+.contato {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
