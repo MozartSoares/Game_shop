@@ -4,29 +4,19 @@
     padding: 0;    
 }
 header,
-<<<<<<< HEAD
 section h2, 
-=======
-section h2,
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
 section h3,
 form button {
     font-family: 'Bungee', cursive;
     font-weight: normal;
 }
 
-<<<<<<< HEAD
 body ,
 input,
 textarea {
     font-family: 'Roboto', sans-serif;
 }
 
-=======
-body, input, textarea{
-    font-family: 'Roboto', sans-serif;
-}
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
 
 header{
     padding: 16px;
@@ -99,29 +89,17 @@ section p{
     height: 24px;
 }
 
-<<<<<<< HEAD
 .social li {
-=======
-.social li{
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
     display: inline;
     margin-right: 8px;
 }
 
-<<<<<<< HEAD
 .social li a {
     text-decoration: none;
     
 }
 
 #contato .container{
-=======
-.social li{
-    text-decoration: none;
-}
-
-#contato h2{
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
     display: block;
 }
 
@@ -139,11 +117,7 @@ form button {
     padding: 8px;
 }
 
-<<<<<<< HEAD
 form textarea {
-=======
-form textarea{
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
     resize: none;
     height: 180px;
 }
@@ -152,20 +126,13 @@ section h3{
     margin-bottom: 16px;
 }
 
-<<<<<<< HEAD
 form button {
     background-color: #182C61;
     color: #ecf0f1;
-=======
-form button{
-    background-color: #182C61;
-    color: #fff;
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
     border: none;
     cursor: pointer;
 }
 
-<<<<<<< HEAD
 form button:hover {
     background-color: #354e95;
 }
@@ -178,12 +145,4 @@ footer{
     outline-color: #182C61;
     color: #ecf0f1;
     padding: 16px 0;
-=======
-form button:hover{
-    background-color: #3a5ab0;
-}
-
-input:focus ,textarea:focus{
-    outline-color: #76e923;
->>>>>>> 340f82531e18f0c2cbe570d62492f87891c94d7c
 }
