@@ -10,24 +10,25 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">    
+
 </head>
 <body>
     <header>
-       <div class="container">
-        <h1>Game shop</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">sobre a loja</a>
-                </li>
-                <li>
-                    <a href="#">contato</a>
-                </li>
-            </ul>
-        </nav>
-       </div>
+        <div class="container">
+            <h1>Game shop</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sobre">sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#contato">contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section>
+    <section id="sobre">
         <div class="container">
             <img id="loja" src="images/loja.jpg" alt="fachada da loja Game shop" >
             <div>
@@ -51,28 +52,30 @@
                 <div>
                     <h3>Fale conosco</h3>
                     <form>
-                        <input type="text" placeholder="Seu nome">
-                        <input type="email" placeholder="Seu e-mail">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu e-mail" required>
                         <input type="tel" placeholder="Seu telefone (opcional)">
-                        <textarea placeholder="Sua mensagem"></textarea>
+                        <textarea placeholder="Sua mensagem" required></textarea>
                         <button type="submit">Enviar</button>
                     </form>
                 </div>
-            </div>
                 <div>
                     <h3>Nos acompanhe</h3>
                     <ul class="social">
                         <li>
-                            <a href="#" title="Siga-nos no instagram"></a>
-                            <img src="images/instagram.png" alt="Logo do instagram">
+                            <a href="#" title="Siga-nos no instagram">
+                                <img src="images/instagram.png" alt="Logo do instagram">
+                            </a>
                         </li>
                         <li>
-                            <a href="#" title="Siga-nos no facebook"></a>
-                            <img src="images/facebook.png" alt="Logo do facebook">
+                            <a href="#" title="Siga-nos no facebook">
+                                <img src="images/facebook.png" alt="Logo do facebook">
+                            </a>
                         </li>
                         <li>
-                            <a href="#" title="Se inscreva no nosso canal do youtube"></a>
-                            <img src="images/youtube.png" alt="Logo do youtube">
+                            <a href="#" title="Se inscreva no nosso canal do youtube">
+                                <img src="images/youtube.png" alt="Logo do youtube">
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -82,8 +85,15 @@
                         Rua Turusbangos Tudubagos 1608, Ultramar - Gaivota - SC
                     </p>
                 </div>
-            </div>
+            </div>  
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Game shop - Todos os direitos reservados - 2022
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
